@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary">
+
+    <Button
+        android:id="@+id/b_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:text="START"/>
+
+    <TextView
+        android:id="@+id/t_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:layout_below="@id/b_start"
+        android:text="STATUS: "
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/t_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:layout_below="@id/b_start"
+        android:layout_toRightOf="@id/t_label"
+        android:text="Stopped"
+        android:textSize="20dp"
+        android:textColor="#298EF8"/>
+
+
+</RelativeLayout>
